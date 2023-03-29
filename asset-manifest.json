@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/insure-landing-page-react/static/css/main.e016734c.css",
+    "main.js": "/insure-landing-page-react/static/js/main.8c0e905c.js",
+    "static/media/image-intro-desktop.jpg": "/insure-landing-page-react/static/media/image-intro-desktop.2f3429f63753a67e322b.jpg",
+    "static/media/image-intro-mobile.jpg": "/insure-landing-page-react/static/media/image-intro-mobile.8b8c3185ce1388b2bb9e.jpg",
+    "static/media/logo.svg": "/insure-landing-page-react/static/media/logo.b84080a147fc2d2276186c0349edfeec.svg",
+    "static/media/bg-pattern-mobile-nav.svg": "/insure-landing-page-react/static/media/bg-pattern-mobile-nav.b2fceba3d85314c10486.svg",
+    "static/media/bg-pattern-how-we-work-desktop.svg": "/insure-landing-page-react/static/media/bg-pattern-how-we-work-desktop.eb268c33d9921cd960db.svg",
+    "static/media/bg-pattern-intro-left-desktop.svg": "/insure-landing-page-react/static/media/bg-pattern-intro-left-desktop.3a425b38f5531b055de49ec32822cf8c.svg",
+    "static/media/bg-pattern-intro-right-desktop.svg": "/insure-landing-page-react/static/media/bg-pattern-intro-right-desktop.0c130b3f008bf9eb1d1b204d6bdd53e0.svg",
+    "static/media/bg-pattern-footer-desktop.svg": "/insure-landing-page-react/static/media/bg-pattern-footer-desktop.700c39ea607592bfacaf.svg",
+    "static/media/bg-pattern-footer-mobile.svg": "/insure-landing-page-react/static/media/bg-pattern-footer-mobile.9f048cf0d8710a041f70.svg",
+    "static/media/bg-pattern-how-we-work-mobile.svg": "/insure-landing-page-react/static/media/bg-pattern-how-we-work-mobile.96cd9d0635dc0b442022.svg",
+    "static/media/bg-pattern-intro-left-mobile.svg": "/insure-landing-page-react/static/media/bg-pattern-intro-left-mobile.111709ef92e6f76465a9.svg",
+    "static/media/bg-pattern-intro-right-mobile.svg": "/insure-landing-page-react/static/media/bg-pattern-intro-right-mobile.0354e57129409ea983cd642c14acfb82.svg",
+    "index.html": "/insure-landing-page-react/index.html",
+    "main.e016734c.css.map": "/insure-landing-page-react/static/css/main.e016734c.css.map",
+    "main.8c0e905c.js.map": "/insure-landing-page-react/static/js/main.8c0e905c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e016734c.css",
+    "static/js/main.8c0e905c.js"
+  ]
+}
