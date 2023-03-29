@@ -1,0 +1,102 @@
+.navbar_container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 31rem;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 98%);
+  height: 6rem;
+  z-index: 3;
+}
+.navbar_links_container {
+  position: relative;
+}
+
+.navbar_links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+.navbar_container a {
+  font-weight: 700;
+  font-family: 'Karla', sans-serif;
+  font-size: 13px;
+  list-style: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: hsl(273, 4%, 51%);
+  text-decoration: none;
+}
+.navbar_container a:nth-child(4) {
+  border: 2px solid hsl(256, 26%, 20%);
+  padding: 10px 20px 10px 20px;
+}
+.navbar_container a:is(:hover, :active) {
+  color: hsl(256, 26%, 20%);
+}
+.navbar_container a:nth-child(4):is(:hover, :active) {
+  color: hsl(0, 0%, 98%);
+  background-color: hsl(270, 9%, 17%);
+}
+
+.mobile_menu_icon {
+  display: none;
+}
+.navbar_links_mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 1440px) {
+  .navbar_links {
+    display: none;
+  }
+  .navbar_links_mobile {
+    position: absolute;
+    top: 3.2rem;
+    right: -0.9rem;
+    width: 21rem;
+    height: 25.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+    background-color: hsl(270, 9%, 17%);
+    padding-top: 3rem;
+    background-image: url(../assets/bg-pattern-mobile-nav.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right 0px;
+  }
+
+  .navbar_container a {
+    color: hsl(0, 0%, 98%);
+    text-decoration: none;
+    width: 16rem;
+    margin-left: -2rem;
+  }
+  .navbar_container a:nth-child(4) {
+    border: 2px solid hsl(0, 0%, 98%);
+    padding: 8px 10px 8px 10px;
+  }
+  .navbar_container a:is(:hover, :active) {
+    color: hsl(273, 4%, 51%);
+  }
+  .navbar_container a:nth-child(4):is(:hover, :active) {
+    color: hsl(270, 9%, 17%);
+    background-color: hsl(0, 0%, 98%);
+  }
+
+  .navbar_container {
+    gap: 12rem;
+  }
+
+  .mobile_menu_icon {
+    display: flex;
+    background-color: hsl(0, 0%, 98%);
+    border: 2px solid hsl(270, 9%, 17%);
+  }
+}
